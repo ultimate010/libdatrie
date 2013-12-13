@@ -1,0 +1,313 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALPHAMAP_SIGNATURE	datrie/alpha-map.c	78;"	d	file:
+ALPHA_CHAR_ERROR	datrie/triedefs.h	45;"	d
+ALPHA_ENC	tools/trietool.c	28;"	d	file:
+AlphaChar	datrie/triedefs.h	/^typedef uint32         AlphaChar;$/;"	t
+AlphaMap	datrie/alpha-map.h	/^typedef struct _AlphaMap    AlphaMap;$/;"	t	typeref:struct:_AlphaMap
+AlphaRange	datrie/alpha-map.c	/^} AlphaRange;$/;"	t	typeref:struct:_AlphaRange	file:
+Bool	datrie/typedefs.h	/^typedef enum { FALSE = 0, TRUE = 1 } Bool;$/;"	t	typeref:enum:__anon4
+DACell	datrie/darray.c	/^} DACell;$/;"	t	typeref:struct:__anon3	file:
+DAEnumFunc	datrie/darray.h	/^typedef Bool (*DAEnumFunc) (const TrieChar   *key,$/;"	t
+DA_POOL_BEGIN	datrie/darray.c	177;"	d	file:
+DA_SIGNATURE	datrie/darray.c	169;"	d	file:
+DArray	datrie/darray.h	/^typedef struct _DArray  DArray;$/;"	t	typeref:struct:_DArray
+FALSE	datrie/typedefs.h	/^typedef enum { FALSE = 0, TRUE = 1 } Bool;$/;"	e	enum:__anon4
+INT16_TYPEDEF	datrie/typedefs.h	57;"	d
+INT16_TYPEDEF	datrie/typedefs.h	71;"	d
+INT32_TYPEDEF	datrie/typedefs.h	85;"	d
+INT32_TYPEDEF	datrie/typedefs.h	99;"	d
+INT8_TYPEDEF	datrie/typedefs.h	43;"	d
+MAX_VAL	datrie/trie-private.h	44;"	d
+MIN_VAL	datrie/trie-private.h	40;"	d
+N_ELEMENTS	tools/trietool.c	30;"	d	file:
+ProgEnv	tools/trietool.c	/^} ProgEnv;$/;"	t	typeref:struct:__anon1	file:
+Symbols	datrie/darray.c	/^typedef struct _Symbols Symbols;$/;"	t	typeref:struct:_Symbols	file:
+TAIL_SIGNATURE	datrie/tail.c	72;"	d	file:
+TAIL_START_BLOCKNO	datrie/tail.c	73;"	d	file:
+TRIE_CHAR_MAX	datrie/triedefs.h	55;"	d
+TRIE_CHAR_TERM	datrie/triedefs.h	54;"	d
+TRIE_DATA_ERROR	datrie/triedefs.h	77;"	d
+TRIE_INDEX_ERROR	datrie/triedefs.h	64;"	d
+TRIE_INDEX_MAX	datrie/triedefs.h	68;"	d
+TRUE	datrie/typedefs.h	/^typedef enum { FALSE = 0, TRUE = 1 } Bool;$/;"	e	enum:__anon4
+Tail	datrie/tail.h	/^typedef struct _Tail  Tail;$/;"	t	typeref:struct:_Tail
+TailBlock	datrie/tail.c	/^} TailBlock;$/;"	t	typeref:struct:__anon5	file:
+Trie	datrie/trie.h	/^typedef struct _Trie   Trie;$/;"	t	typeref:struct:_Trie
+TrieChar	datrie/triedefs.h	/^typedef unsigned char  TrieChar;$/;"	t
+TrieData	datrie/triedefs.h	/^typedef int32          TrieData;$/;"	t
+TrieEnumFunc	datrie/trie.h	/^typedef Bool (*TrieEnumFunc) (const AlphaChar  *key,$/;"	t
+TrieIndex	datrie/triedefs.h	/^typedef int32          TrieIndex;$/;"	t
+TrieState	datrie/trie.h	/^typedef struct _TrieState TrieState;$/;"	t	typeref:struct:_TrieState
+UINT16_TYPEDEF	datrie/typedefs.h	50;"	d
+UINT16_TYPEDEF	datrie/typedefs.h	64;"	d
+UINT32_TYPEDEF	datrie/typedefs.h	78;"	d
+UINT32_TYPEDEF	datrie/typedefs.h	92;"	d
+UINT8_TYPEDEF	datrie/typedefs.h	36;"	d
+_AlphaMap	datrie/alpha-map.c	/^struct _AlphaMap {$/;"	s	file:
+_AlphaRange	datrie/alpha-map.c	/^typedef struct _AlphaRange {$/;"	s	file:
+_DArray	datrie/darray.c	/^struct _DArray {$/;"	s	file:
+_Symbols	datrie/darray.c	/^struct _Symbols {$/;"	s	file:
+_Tail	datrie/tail.c	/^struct _Tail {$/;"	s	file:
+_Trie	datrie/trie.c	/^struct _Trie {$/;"	s	file:
+_TrieEnumData	datrie/trie.c	/^} _TrieEnumData;$/;"	t	typeref:struct:__anon2	file:
+_TrieState	datrie/trie.c	/^struct _TrieState {$/;"	s	file:
+__ALPHA_MAP_H	datrie/alpha-map.h	28;"	d
+__ALPHA_MAP_PRIVATE_H	datrie/alpha-map-private.h	28;"	d
+__DARRAY_H	datrie/darray.h	28;"	d
+__FILEUTILS_H	datrie/fileutils.h	28;"	d
+__TAIL_H	datrie/tail.h	28;"	d
+__TRIEDEFS_H	datrie/triedefs.h	28;"	d
+__TRIE_H	datrie/trie.h	28;"	d
+__TRIE_PRIVATE_H	datrie/trie-private.h	28;"	d
+__TYPEDEFS_H	datrie/typedefs.h	28;"	d
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_check_type	configure	/^ac_fn_c_check_type ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+alpha_char_strlen	datrie/alpha-map.c	/^alpha_char_strlen (const AlphaChar *str)$/;"	f
+alpha_map	datrie/trie.c	/^    AlphaMap   *alpha_map;$/;"	m	struct:_Trie	file:
+alpha_map_add_range	datrie/alpha-map.c	/^alpha_map_add_range (AlphaMap *alpha_map, AlphaChar begin, AlphaChar end)$/;"	f
+alpha_map_char_to_trie	datrie/alpha-map.c	/^alpha_map_char_to_trie (const AlphaMap *alpha_map, AlphaChar ac)$/;"	f
+alpha_map_char_to_trie_str	datrie/alpha-map.c	/^alpha_map_char_to_trie_str (const AlphaMap *alpha_map, const AlphaChar *str)$/;"	f
+alpha_map_clone	datrie/alpha-map.c	/^alpha_map_clone (const AlphaMap *a_map)$/;"	f
+alpha_map_fread_bin	datrie/alpha-map.c	/^alpha_map_fread_bin (FILE *file)$/;"	f
+alpha_map_free	datrie/alpha-map.c	/^alpha_map_free (AlphaMap *alpha_map)$/;"	f
+alpha_map_fwrite_bin	datrie/alpha-map.c	/^alpha_map_fwrite_bin (const AlphaMap *alpha_map, FILE *file)$/;"	f
+alpha_map_get_total_ranges	datrie/alpha-map.c	/^alpha_map_get_total_ranges (const AlphaMap *alpha_map)$/;"	f	file:
+alpha_map_new	datrie/alpha-map.c	/^alpha_map_new ()$/;"	f
+alpha_map_trie_to_char	datrie/alpha-map.c	/^alpha_map_trie_to_char (const AlphaMap *alpha_map, TrieChar tc)$/;"	f
+alpha_map_trie_to_char_str	datrie/alpha-map.c	/^alpha_map_trie_to_char_str (const AlphaMap *alpha_map, const TrieChar *str)$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+base	datrie/darray.c	/^    TrieIndex   base;$/;"	m	struct:__anon3	file:
+begin	datrie/alpha-map.c	/^    AlphaChar           begin;$/;"	m	struct:_AlphaRange	file:
+byte	datrie/typedefs.h	/^typedef uint8  byte;$/;"	t
+cells	datrie/darray.c	/^    DACell     *cells;$/;"	m	struct:_DArray	file:
+check	datrie/darray.c	/^    TrieIndex   check;$/;"	m	struct:__anon3	file:
+close_conv	tools/trietool.c	/^close_conv (ProgEnv *env)$/;"	f	file:
+close_trie	tools/trietool.c	/^close_trie (ProgEnv *env)$/;"	f	file:
+command_add	tools/trietool.c	/^command_add (int argc, char *argv[], ProgEnv *env)$/;"	f	file:
+command_add_list	tools/trietool.c	/^command_add_list (int argc, char *argv[], ProgEnv *env)$/;"	f	file:
+command_delete	tools/trietool.c	/^command_delete (int argc, char *argv[], ProgEnv *env)$/;"	f	file:
+command_delete_list	tools/trietool.c	/^command_delete_list (int argc, char *argv[], ProgEnv *env)$/;"	f	file:
+command_list	tools/trietool.c	/^command_list (int argc, char *argv[], ProgEnv *env)$/;"	f	file:
+command_query	tools/trietool.c	/^command_query (int argc, char *argv[], ProgEnv *env)$/;"	f	file:
+conv_from_alpha	tools/trietool.c	/^conv_from_alpha (ProgEnv *env, const AlphaChar *in, char *out, size_t out_size)$/;"	f	file:
+conv_to_alpha	tools/trietool.c	/^conv_to_alpha (ProgEnv *env, const char *in, AlphaChar *out, size_t out_size)$/;"	f	file:
+da	datrie/trie.c	/^    DArray     *da;$/;"	m	struct:_Trie	file:
+da_alloc_cell	datrie/darray.c	/^da_alloc_cell      (DArray         *d,$/;"	f	file:
+da_check_free_cell	datrie/darray.c	/^da_check_free_cell (DArray         *d,$/;"	f	file:
+da_enumerate	datrie/darray.c	/^da_enumerate (const DArray *d, DAEnumFunc enum_func, void *user_data)$/;"	f
+da_enumerate_recursive	datrie/darray.c	/^da_enumerate_recursive (const DArray   *d,$/;"	f	file:
+da_extend_pool	datrie/darray.c	/^da_extend_pool     (DArray         *d,$/;"	f	file:
+da_find_free_base	datrie/darray.c	/^da_find_free_base  (DArray         *d,$/;"	f	file:
+da_fit_symbols	datrie/darray.c	/^da_fit_symbols     (DArray         *d,$/;"	f	file:
+da_fread	datrie/darray.c	/^da_fread (FILE *file)$/;"	f
+da_free	datrie/darray.c	/^da_free (DArray *d)$/;"	f
+da_free_cell	datrie/darray.c	/^da_free_cell       (DArray         *d,$/;"	f	file:
+da_fwrite	datrie/darray.c	/^da_fwrite (const DArray *d, FILE *file)$/;"	f
+da_get_base	datrie/darray.c	/^da_get_base (const DArray *d, TrieIndex s)$/;"	f
+da_get_check	datrie/darray.c	/^da_get_check (const DArray *d, TrieIndex s)$/;"	f
+da_get_free_list	datrie/darray.c	59;"	d	file:
+da_get_root	datrie/darray.c	/^da_get_root (const DArray *d)$/;"	f
+da_get_state_key	datrie/darray.c	/^da_get_state_key   (const DArray   *d,$/;"	f	file:
+da_has_children	datrie/darray.c	/^da_has_children    (DArray         *d,$/;"	f	file:
+da_insert_branch	datrie/darray.c	/^da_insert_branch (DArray *d, TrieIndex s, TrieChar c)$/;"	f
+da_is_walkable	datrie/darray.h	93;"	d
+da_new	datrie/darray.c	/^da_new ()$/;"	f
+da_output_symbols	datrie/darray.c	/^da_output_symbols  (const DArray   *d,$/;"	f	file:
+da_prune	datrie/darray.c	/^da_prune (DArray *d, TrieIndex s)$/;"	f
+da_prune_upto	datrie/darray.c	/^da_prune_upto (DArray *d, TrieIndex p, TrieIndex s)$/;"	f
+da_relocate_base	datrie/darray.c	/^da_relocate_base   (DArray         *d,$/;"	f	file:
+da_set_base	datrie/darray.c	/^da_set_base (DArray *d, TrieIndex s, TrieIndex val)$/;"	f
+da_set_check	datrie/darray.c	/^da_set_check (DArray *d, TrieIndex s, TrieIndex val)$/;"	f
+da_walk	datrie/darray.c	/^da_walk (const DArray *d, TrieIndex *s, TrieChar c)$/;"	f
+data	datrie/tail.c	/^    TrieData    data;$/;"	m	struct:__anon5	file:
+decode_command	tools/trietool.c	/^decode_command (int argc, char *argv[], ProgEnv *env)$/;"	f	file:
+decode_switch	tools/trietool.c	/^decode_switch (int argc, char *argv[], ProgEnv *env)$/;"	f	file:
+dword	datrie/typedefs.h	/^typedef uint32 dword;$/;"	t
+end	datrie/alpha-map.c	/^    AlphaChar           end;$/;"	m	struct:_AlphaRange	file:
+enum_func	datrie/trie.c	/^    TrieEnumFunc    enum_func;$/;"	m	struct:__anon2	file:
+file_read_chars	datrie/fileutils.c	/^file_read_chars (FILE *file, char *buff, int len)$/;"	f
+file_read_int16	datrie/fileutils.c	/^file_read_int16 (FILE *file, int16 *o_val)$/;"	f
+file_read_int32	datrie/fileutils.c	/^file_read_int32 (FILE *file, int32 *o_val)$/;"	f
+file_read_int8	datrie/fileutils.c	/^file_read_int8 (FILE *file, int8 *o_val)$/;"	f
+file_write_chars	datrie/fileutils.c	/^file_write_chars (FILE *file, const char *buff, int len)$/;"	f
+file_write_int16	datrie/fileutils.c	/^file_write_int16 (FILE *file, int16 val)$/;"	f
+file_write_int32	datrie/fileutils.c	/^file_write_int32 (FILE *file, int32 val)$/;"	f
+file_write_int8	datrie/fileutils.c	/^file_write_int8 (FILE *file, int8 val)$/;"	f
+first_free	datrie/tail.c	/^    TrieIndex   first_free;$/;"	m	struct:_Tail	file:
+first_range	datrie/alpha-map.c	/^    AlphaRange     *first_range;$/;"	m	struct:_AlphaMap	file:
+from_alpha_conv	tools/trietool.c	/^    iconv_t     from_alpha_conv;$/;"	m	struct:__anon1	file:
+func_append	configure	/^func_append ()$/;"	f
+func_arith	configure	/^func_arith ()$/;"	f
+func_basename	configure	/^func_basename ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_dirname	configure	/^func_dirname ()$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper_part1	ltmain.sh	/^func_emit_wrapper_part1 ()$/;"	f
+func_emit_wrapper_part2	ltmain.sh	/^func_emit_wrapper_part2 ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	configure	/^func_len ()$/;"	f
+func_lo2o	configure	/^func_lo2o ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_opt_split	configure	/^func_opt_split ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_stripname	configure	/^func_stripname ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_host_pathlist	ltmain.sh	/^func_to_host_pathlist ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	configure	/^func_xform ()$/;"	f
+index	datrie/trie.c	/^    TrieIndex   index;      \/**< index in double-array\/tail structures *\/$/;"	m	struct:_TrieState	file:
+init_conv	tools/trietool.c	/^init_conv (ProgEnv *env)$/;"	f	file:
+int16	datrie/typedefs.h	/^      typedef int            int16;$/;"	t
+int16	datrie/typedefs.h	/^      typedef short          int16;$/;"	t
+int32	datrie/typedefs.h	/^      typedef int            int32;$/;"	t
+int32	datrie/typedefs.h	/^      typedef long           int32;$/;"	t
+int8	datrie/typedefs.h	/^      typedef signed char    int8;$/;"	t
+is_dirty	datrie/trie.c	/^    Bool        is_dirty;$/;"	m	struct:_Trie	file:
+is_suffix	datrie/trie.c	/^    short       is_suffix;  \/**< whether it is currently in suffix part *\/$/;"	m	struct:_TrieState	file:
+list_enum_func	tools/trietool.c	/^list_enum_func (const AlphaChar *key, TrieData key_data, void *user_data)$/;"	f	file:
+locale_charset	tools/trietool.c	18;"	d	file:
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	tools/trietool.c	/^main (int argc, char *argv[])$/;"	f
+next	datrie/alpha-map.c	/^    struct _AlphaRange *next;$/;"	m	struct:_AlphaRange	typeref:struct:_AlphaRange::_AlphaRange	file:
+next_free	datrie/tail.c	/^    TrieIndex   next_free;$/;"	m	struct:__anon5	file:
+num_cells	datrie/darray.c	/^    TrieIndex   num_cells;$/;"	m	struct:_DArray	file:
+num_symbols	datrie/darray.c	/^    short       num_symbols;$/;"	m	struct:_Symbols	file:
+num_tails	datrie/tail.c	/^    TrieIndex   num_tails;$/;"	m	struct:_Tail	file:
+path	tools/trietool.c	/^    const char *path;$/;"	m	struct:__anon1	file:
+prepare_trie	tools/trietool.c	/^prepare_trie (ProgEnv *env)$/;"	f	file:
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+string_trim	tools/trietool.c	/^string_trim (char *s)$/;"	f	file:
+suffix	datrie/tail.c	/^    TrieChar   *suffix;$/;"	m	struct:__anon5	file:
+suffix_idx	datrie/trie.c	/^    short       suffix_idx; \/**< suffix character offset, if in suffix *\/$/;"	m	struct:_TrieState	file:
+symbols	datrie/darray.c	/^    TrieChar    symbols[256];$/;"	m	struct:_Symbols	file:
+symbols_add	datrie/darray.c	/^symbols_add (Symbols *syms, TrieChar c)$/;"	f	file:
+symbols_add_fast	datrie/darray.c	53;"	d	file:
+symbols_free	datrie/darray.c	/^symbols_free (Symbols *syms)$/;"	f	file:
+symbols_get	datrie/darray.c	52;"	d	file:
+symbols_new	datrie/darray.c	/^symbols_new ()$/;"	f	file:
+symbols_num	datrie/darray.c	51;"	d	file:
+tail	datrie/trie.c	/^    Tail       *tail;$/;"	m	struct:_Trie	file:
+tail_add_suffix	datrie/tail.c	/^tail_add_suffix (Tail *t, const TrieChar *suffix)$/;"	f
+tail_alloc_block	datrie/tail.c	/^tail_alloc_block (Tail *t)$/;"	f	file:
+tail_delete	datrie/tail.c	/^tail_delete (Tail *t, TrieIndex index)$/;"	f
+tail_fread	datrie/tail.c	/^tail_fread (FILE *file)$/;"	f
+tail_free	datrie/tail.c	/^tail_free (Tail *t)$/;"	f
+tail_free_block	datrie/tail.c	/^tail_free_block (Tail *t, TrieIndex block)$/;"	f	file:
+tail_fwrite	datrie/tail.c	/^tail_fwrite (const Tail *t, FILE *file)$/;"	f
+tail_get_data	datrie/tail.c	/^tail_get_data (const Tail *t, TrieIndex index)$/;"	f
+tail_get_suffix	datrie/tail.c	/^tail_get_suffix (const Tail *t, TrieIndex index)$/;"	f
+tail_is_walkable_char	datrie/tail.h	93;"	d
+tail_new	datrie/tail.c	/^tail_new ()$/;"	f
+tail_set_data	datrie/tail.c	/^tail_set_data (Tail *t, TrieIndex index, TrieData data)$/;"	f
+tail_set_suffix	datrie/tail.c	/^tail_set_suffix (Tail *t, TrieIndex index, const TrieChar *suffix)$/;"	f
+tail_walk_char	datrie/tail.c	/^tail_walk_char (const Tail      *t,$/;"	f
+tail_walk_str	datrie/tail.c	/^tail_walk_str  (const Tail      *t,$/;"	f
+tails	datrie/tail.c	/^    TailBlock  *tails;$/;"	m	struct:_Tail	file:
+to_alpha_conv	tools/trietool.c	/^    iconv_t     to_alpha_conv;$/;"	m	struct:__anon1	file:
+trie	datrie/trie.c	/^    const Trie     *trie;$/;"	m	struct:__anon2	file:
+trie	datrie/trie.c	/^    const Trie *trie;       \/**< the corresponding trie *\/$/;"	m	struct:_TrieState	file:
+trie	tools/trietool.c	/^    Trie       *trie;$/;"	m	struct:__anon1	file:
+trie_branch_in_branch	datrie/trie.c	/^trie_branch_in_branch (Trie           *trie,$/;"	f	file:
+trie_branch_in_tail	datrie/trie.c	/^trie_branch_in_tail   (Trie           *trie,$/;"	f	file:
+trie_da_enum_func	datrie/trie.c	/^trie_da_enum_func (const TrieChar *key, TrieIndex sep_node, void *user_data)$/;"	f	file:
+trie_da_get_tail_index	datrie/trie.c	63;"	d	file:
+trie_da_is_separate	datrie/trie.c	62;"	d	file:
+trie_da_set_tail_index	datrie/trie.c	64;"	d	file:
+trie_delete	datrie/trie.c	/^trie_delete (Trie *trie, const AlphaChar *key)$/;"	f
+trie_enumerate	datrie/trie.c	/^trie_enumerate (const Trie *trie, TrieEnumFunc enum_func, void *user_data)$/;"	f
+trie_fread	datrie/trie.c	/^trie_fread (FILE *file)$/;"	f
+trie_free	datrie/trie.c	/^trie_free (Trie *trie)$/;"	f
+trie_fwrite	datrie/trie.c	/^trie_fwrite (Trie *trie, FILE *file)$/;"	f
+trie_is_dirty	datrie/trie.c	/^trie_is_dirty (const Trie *trie)$/;"	f
+trie_name	tools/trietool.c	/^    const char *trie_name;$/;"	m	struct:__anon1	file:
+trie_new	datrie/trie.c	/^trie_new (const AlphaMap *alpha_map)$/;"	f
+trie_new_from_file	datrie/trie.c	/^trie_new_from_file (const char *path)$/;"	f
+trie_retrieve	datrie/trie.c	/^trie_retrieve (const Trie *trie, const AlphaChar *key, TrieData *o_data)$/;"	f
+trie_root	datrie/trie.c	/^trie_root (const Trie *trie)$/;"	f
+trie_save	datrie/trie.c	/^trie_save (Trie *trie, const char *path)$/;"	f
+trie_state_clone	datrie/trie.c	/^trie_state_clone (const TrieState *s)$/;"	f
+trie_state_copy	datrie/trie.c	/^trie_state_copy (TrieState *dst, const TrieState *src)$/;"	f
+trie_state_free	datrie/trie.c	/^trie_state_free (TrieState *s)$/;"	f
+trie_state_get_data	datrie/trie.c	/^trie_state_get_data (const TrieState *s)$/;"	f
+trie_state_is_leaf	datrie/trie.h	149;"	d
+trie_state_is_single	datrie/trie.c	/^trie_state_is_single (const TrieState *s)$/;"	f
+trie_state_is_terminal	datrie/trie.h	135;"	d
+trie_state_is_walkable	datrie/trie.c	/^trie_state_is_walkable (const TrieState *s, AlphaChar c)$/;"	f
+trie_state_new	datrie/trie.c	/^trie_state_new (const Trie *trie,$/;"	f	file:
+trie_state_rewind	datrie/trie.c	/^trie_state_rewind (TrieState *s)$/;"	f
+trie_state_walk	datrie/trie.c	/^trie_state_walk (TrieState *s, AlphaChar c)$/;"	f
+trie_store	datrie/trie.c	/^trie_store (Trie *trie, const AlphaChar *key, TrieData data)$/;"	f
+trie_store_conditionally	datrie/trie.c	/^trie_store_conditionally (Trie            *trie,$/;"	f	file:
+trie_store_if_absent	datrie/trie.c	/^trie_store_if_absent (Trie *trie, const AlphaChar *key, TrieData data)$/;"	f
+uint16	datrie/typedefs.h	/^      typedef unsigned int   uint16;$/;"	t
+uint16	datrie/typedefs.h	/^      typedef unsigned short uint16;$/;"	t
+uint32	datrie/typedefs.h	/^      typedef unsigned int   uint32;$/;"	t
+uint32	datrie/typedefs.h	/^      typedef unsigned long  uint32;$/;"	t
+uint8	datrie/typedefs.h	/^      typedef unsigned char  uint8;$/;"	t
+usage	tools/trietool.c	/^usage (const char *prog_name, int exit_status)$/;"	f	file:
+user_data	datrie/trie.c	/^    void           *user_data;$/;"	m	struct:__anon2	file:
+word	datrie/typedefs.h	/^typedef uint16 word;$/;"	t
